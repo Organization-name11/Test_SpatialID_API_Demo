@@ -12,6 +12,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@turf/bbox": "^7.3.0",
+    "@turf/boolean-intersects": "^7.3.0",
+    "@turf/helpers": "^7.3.0",
     "next": "^16.0.3",
     "ouranos-gex-lib-for-javascript": "github:ouranos-gex/ouranos-gex-lib-for-JavaScript",
     "react": "^19.2.0",
@@ -19,6 +22,7 @@
   },
   "devDependencies": {
     "@types/node": "^24.10.1",
+    "@types/react": "19.2.6",
     "typescript": "^5.9.3"
   }
 }
