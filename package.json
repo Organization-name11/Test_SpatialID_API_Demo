@@ -1,0 +1,20 @@
+{
+  "name": "test_spatialid_api_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^16.0.3",
+    "ouranos-gex-lib-for-javascript": "github:ouranos-gex/ouranos-gex-lib-for-JavaScript",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}
