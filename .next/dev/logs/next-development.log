@@ -1,1 +1,60 @@
 [00:00:00.830] Server  LOG      ✓ Ready in 561ms
+[00:04:09.507] Server  ERROR    ⨯ ./pages/api/spatial-id.js:1:1
+Module not found: Can't resolve 'ouranos-gex-lib-for-javascript'
+> 1 | import { Space } from 'ouranos-gex-lib-for-javascript';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function handler(req, res) {
+  4 |   const { lat, lon, zoom = '25', alt } = req.query;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:13.703] Browser ERROR   uncaughtError: Error: ./pages/api/spatial-id.js:1:1
+Module not found: Can't resolve 'ouranos-gex-lib-for-javascript'
+> 1 | import { Space } from 'ouranos-gex-lib-for-javascript';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function handler(req, res) {
+  4 |   const { lat, lon, zoom = '25', alt } = req.query;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:13.818] Browser ERROR   ./pages/api/spatial-id.js:1:1
+Module not found: Can't resolve 'ouranos-gex-lib-for-javascript'
+> 1 | import { Space } from 'ouranos-gex-lib-for-javascript';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function handler(req, res) {
+  4 |   const { lat, lon, zoom = '25', alt } = req.query;
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:13.958] Browser ERROR   ./pages/api/spatial-id.js:1:1
+Module not found: Can't resolve 'ouranos-gex-lib-for-javascript'
+> 1 | import { Space } from 'ouranos-gex-lib-for-javascript';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function handler(req, res) {
+  4 |   const { lat, lon, zoom = '25', alt } = req.query;
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:14.082] Browser ERROR   ./pages/api/spatial-id.js:1:1
+Module not found: Can't resolve 'ouranos-gex-lib-for-javascript'
+> 1 | import { Space } from 'ouranos-gex-lib-for-javascript';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function handler(req, res) {
+  4 |   const { lat, lon, zoom = '25', alt } = req.query;
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:26.739] Server  LOG     
+[00:05:26.739] Server  LOG     Could not open spatial-id.js in the editor.
+[00:05:26.739] Server  LOG     The editor process exited with an error: Terminal editors can only be used on macOS.
+[00:05:26.739] Server  LOG     
+[00:05:26.740] Server  LOG     To set up the editor integration, add something like REACT_EDITOR=atom to the .env.local file in your project folder and restart the development server.
+[00:05:26.740] Server  LOG     
